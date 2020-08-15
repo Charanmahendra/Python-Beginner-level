@@ -1,0 +1,64 @@
+def displaygamelist(gamelist):
+    print("Here is the current list")
+    print(gamelist)
+    
+def positionchoice():
+    
+    choice="wrong"
+    
+    while choice not in ['0','1','2']:
+        
+        choice=input("enter a position in given range")
+        
+        if choice not in ['0','1','2']:
+            
+            clear_output()
+            
+            print("sorry wrong number enter a number in given range")
+    
+    return int(choice) 
+
+def replacement(gamelist,position):
+    
+    newvalue=int(input("enter the value to be changed"))
+    
+    gamelist[position]=newvalue
+    
+    return gamelist
+
+def gamecontinue():
+    
+    choice="wrong"
+    
+    while choice not in ['Y','N']:
+        
+        choice=input("for continue Y else N")
+        
+        if choice not in['Y','N']:
+             
+            clear_output()
+            
+            print("enter either Y or N")
+            
+    if choice=='Y':
+        return True
+    else:
+        return False
+gamelist=[0,1,2]    
+
+gameon=True
+
+while gameon:
+    
+    clear_output()
+    displaygamelist(gamelist)
+    
+    position=positionchoice() 
+    
+    gamelist=replacement(gamelist,position)
+    
+    clear_output()
+    
+    displaygamelist(gamelist)
+    
+    gameon=gamecontinue()
