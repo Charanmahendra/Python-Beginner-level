@@ -1,0 +1,7 @@
+Object oriented programming(OOP) allows the programmers to create their own objects that have methods and attributes.
+
+Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects.
+
+A method is a function that “belongs to” an object. (In Python, the term method is not unique to class instances: other object types can have methods as well. For example, list objects have methods called append, insert, remove, sort, and so on.
+
+These methods acts as functions that use  the information about the object,as well as the object itself and return results,or change the current object.
