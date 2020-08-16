@@ -5,3 +5,11 @@ Almost everything in Python is an object, with its properties and methods. A Cla
 A method is a function that “belongs to” an object. (In Python, the term method is not unique to class instances: other object types can have methods as well. For example, list objects have methods called append, insert, remove, sort, and so on.
 
 These methods acts as functions that use  the information about the object,as well as the object itself and return results,or change the current object.
+
+For example,this includes appending to a list or counting the occurences of an element in a tuple.
+
+In general,OOP allows us to create code that is repeatable and organized.
+
+For larger scripts of python code,functions by themselves aren't enough for organization and repeatability.
+
+Commonly repeated tasks and objects can be defined with OOP to create code that is more usable.
