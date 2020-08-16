@@ -13,3 +13,7 @@ In general,OOP allows us to create code that is repeatable and organized.
 For larger scripts of python code,functions by themselves aren't enough for organization and repeatability.
 
 Commonly repeated tasks and objects can be defined with OOP to create code that is more usable.
+
+Methods are functions defined inside the body of a class. They are used to perform operations with the attributes of our objects. Methods are a key concept of the OOP paradigm. They are essential to dividing responsibilities in programming, especially in large applications.
+
+
